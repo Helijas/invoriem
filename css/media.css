@@ -1,0 +1,238 @@
+
+@media (max-width: 1543px){
+    .slide__title {
+        font-size: 80px;
+    }
+}
+@media (max-width: 1000px) {
+    .header__title{
+        font-size: 50px;
+        margin-bottom: 28px;
+    }
+    .header__text{
+        font-size: 24px;
+        margin-bottom: 52px;
+    }
+    .nav__list{
+        column-gap: 60px;
+    }
+
+    .slider{
+        width: 1200px;
+    }
+    .slide{
+        padding-left: 50px;
+    }
+    .slide__img{
+        width: 336px;
+        height: 396px;
+    }
+    .slide__title{
+        bottom: 32px;
+        font-size: 80px;
+        background: linear-gradient(90deg, rgba(17,68,85,1) 50px, rgba(255,255,255,1) 50px);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (max-width: 1200px){
+    .video__picture{
+        display: block;
+        width: 900px;
+        height: 506px;
+    }
+
+    .video__object{
+        width: 900px;
+        height: 506px;
+    }
+    .video__items-overlay::after{
+        width: 900px;
+        height: 506px;
+    }
+    .none{
+        display: none;
+    }
+    .video__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}   
+
+@media (max-width: 890px){
+    .footer{
+        font-size: 14px;
+        padding-top: 40px;
+    }
+    .footer__row{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__copyright{
+        order: 1;
+    }
+    .footer__socials{
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+    .footer__socials a{
+        width: 24px;
+        height: 24px;
+    }
+    .footer__mail a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .nav__logo{
+        margin-left: 9px;
+        max-width: 109px;
+    }
+    .nav__list{
+        display: none;
+    }
+    .nav__btn{
+        display: block;
+        margin-right: 1px;
+    }
+
+    .header__content{
+        display: none;
+    }
+
+    .header__content-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 27px;
+    }
+    .header__logo-mobile{
+        width: 244px;
+    }
+
+    .header__content-mobile p{
+        color: rgba(31, 31, 31, 0.7);
+        width: 220px;
+        text-align: center;
+        line-height: 1.5;
+        letter-spacing: 0.06em;
+        font-size: 16px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .header__arrows{
+        width: 19px;
+        height: 16px;
+        bottom: 32px;
+    }
+
+    .case-studies{
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    .container__case{
+        text-align: center;
+    }
+
+    .case-studies__title{
+        padding-left: 9px;
+        margin-bottom: 7px;
+    }
+    .case-studies__title h2{
+        font-size: 50px;
+
+    }
+
+    .case-studies__text{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 31px;
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    .slider{
+        width: 546px;
+    }
+
+    .slide{
+        padding-left: 33px;
+    }
+
+    .slide__title{
+        bottom: 22px;
+        font-size: 60px;
+        background: linear-gradient(90deg, rgba(17,68,85,1) 33px, rgba(255,255,255,1) 33px);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .slide__img{
+        width: 224px;
+        height: 264px;
+    }
+
+    .video{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .video__title{
+        margin-bottom: 7px;
+    }
+
+    .video__title h2{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .video__text{
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+    .video__text p{
+        text-align: center;
+    }
+
+    .video__button{
+        height: 48px;
+        width: 48px;
+    }
+    
+    .video__picture{
+        display: block;
+        width: 327px;
+        height: 190px;
+    }
+
+    .video__object{
+        width: 327px;
+        height: 190px;
+    }
+
+    .video__items-overlay::after{
+        width: 327px;
+        height: 190px;
+    }
+    .none{
+        display: none;
+    }
+    .video__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer{
+        padding-bottom: 32px;
+    }
+}
